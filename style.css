@@ -1,0 +1,363 @@
+*{
+    font-family: system-ui,"Segoe UI","Helvetica Neue",Arial,sans-serif;
+}
+body{
+    padding: 0px;
+    margin: 0px;
+}
+header{
+    background-image: url("images/work.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.backblur{
+    background: #200024dc;
+    backdrop-filter: blur(1px);
+}
+.section1,.section2,
+.section3,.section4,
+.section5,.section6,.section7{
+    display: flex;
+    justify-content: center;
+    padding-block: 64px;
+}   
+.container{
+    width: 1110px;
+    margin-inline: 73px;
+    padding-inline: 15px;
+}
+.headertop{
+    display: flex;
+    justify-content: space-between;
+}
+.headertop img{
+    width: 80px;
+    height: 80px;
+}
+.headertop a{
+    font-size: 20px;
+    margin:0px;
+    padding: 0px;
+    align-self: center;
+    color: white;
+    text-decoration: none;
+}
+.headertop a:hover{
+    text-decoration: underline;
+}
+.headercontent h1{
+    margin: 0px;
+    padding: 0px;
+    color: white;
+    font-size: 72px;
+    margin-block: 48px;
+}
+.headercontent p{
+    font-size: 20px;
+    margin: 3px;
+    color: white;
+    margin-block: 24px;
+}
+.myButton {
+	background-color:#63eb5c;
+	border-radius:28px;
+    color:#000000;
+	font-size:18px;
+    font-weight: bold;
+	padding:12px 30px;
+    text-decoration: none;
+    display: inline-block;
+    margin-block: 24px;
+}
+.myButton:hover {
+    color:#ffffff;	
+}
+.cpart2{
+    margin-block: 48px;
+    padding-block: 8px;
+}
+.section2{
+    padding-block: 0px;
+}
+.section2 .block{
+    padding-inline: 15px;
+}
+.section2 h1{
+    font-size: 45px;
+    text-align: center;
+    margin-block: 48px;
+}
+.section2 h2{
+    font-size: 24px;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 8px;
+}
+.section2 p{
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 16px;
+    word-wrap: break-word;
+}
+.section2 .services{
+    display: flex;
+    justify-content: space-between;
+}
+.section2 img{
+    margin-inline:84px;
+}
+.cpart3{
+    margin-block: 48px;
+    display: flex;
+    justify-content: space-between;
+}
+.section3 {
+    padding-block: 0px;
+}
+.section3 h2,.section4 h2{
+    font-size: 45px;
+    margin-top: 0px;
+    margin-bottom: 8px;
+}
+.section3 p,.section4 p{
+    font-size: 16px;
+    margin-block: 24px;
+}
+.look{
+    padding-inline: 15px;
+    text-align: left; 
+}
+.myButton2 {
+	background-color:#2b0430dc;
+	border-radius:28px;
+    color:#ffffff;
+	font-size:18px;
+    font-weight: bold;
+	padding:12px 30px;
+    text-decoration: none;
+    display: inline-block;
+    margin-block: 24px;
+    align-items: left;
+}
+.section3 img, .section4 img{
+    margin-inline: 30px;
+    width: 480px;
+    height: 282px;
+}
+.section3{
+        padding-block: 64px;
+        background-image: linear-gradient(346deg, #63eb5c 354px, transparent 0);
+        text-align: center;
+        min-height: 300px;
+}
+.tabletarea, .safe{
+    padding-inline: 15px;
+    justify-content: left;
+}
+.section4{
+    background-image: linear-gradient(#63eb5c,#5dc557);
+}
+.flexing{
+    display: flex;
+    justify-content:left;
+}
+.section5{
+    padding-block: 0px;
+}
+.cpart5{
+    margin-block: 48px;
+    padding-inline: 15px;
+    padding-block: 64px ;
+}
+.section5 h1{
+    font-size: 45px;
+    margin-bottom: 16px;
+    text-align: center;
+    margin-top: 0px;
+}
+.section5 h2{
+    font-size: 24px;
+    text-align: center;
+    margin-block: 24px;
+}
+.section5 h3{
+    font-size: 16px;
+    margin-bottom: 16px;
+    margin-top: 0px;
+}
+.section5 span{
+    font-size: 88px;
+}
+.section5 p{
+    font-size: 16px;
+    padding-block: 5px;
+    margin-block: 0px;
+}
+.section5 .whitebox{
+    flex: 1;
+    text-align: center;
+    margin-top: 48px;
+    padding-inline: 15px;
+    padding-block: 15px;
+    padding-block: 24px;
+
+}
+.s5body{
+    display: flex;
+    justify-content: space-between;
+    margin-inline:-15px;
+}
+
+.section5 .purplebox{
+    flex: 1;
+    margin-top: 48px;
+    padding-inline: 15px;
+    padding-block: 15px;
+    padding-block: 24px;
+    background-color: #200024dc;
+    text-align: center;
+    color: white;
+}
+.myButton3 {
+    border: 2px solid #2b0430dc ;
+	border-radius:28px;
+    color:#2b0430dc;
+	font-size:18px;
+    font-weight: bold;
+	padding:12px 30px;
+    text-decoration: none;
+    display: inline-block;
+    margin-block: 24px;
+}
+.myButton3:hover{
+    background-color:#2b0430dc;
+    color:#fff;
+}
+.purplebox .myButton3 {
+    background-color: #63eb5c ;
+	border-radius:28px;
+    color:#2b0430dc;
+	font-size:18px;
+    font-weight: bold;
+	padding:12px 30px;
+    text-decoration: none;
+    display: inline-block;
+    margin-block: 24px;
+}
+.purplebox .myButton3:hover{
+    color:#fff;
+}
+.section6{
+    padding-block: 64px;
+    background-color: #ececec;
+}
+.s6body{
+    display:flex;
+    justify-content: space-between;
+}
+.section6 .imagebox{
+    padding-block:8px;
+    padding-inline: 15px;
+}
+.section7back{
+    background-image: url("images/computer.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.s7body{
+    display: flex;
+    justify-content: space-between;
+}
+.cpart7{
+    margin-block: 48px;
+}
+.section7 .contact{
+    flex: 1px;
+    padding-inline: 15px;
+}
+.section7 .message{
+    flex: 1px;
+    padding-inline: 15px;
+}
+.section7 .contact{
+    color: white;
+}
+.section7 h1{
+    font-size: 45px;
+    margin-bottom: 8px;
+    margin-top: 0px;
+}
+.section7 h2{
+    font-size: 16px;
+    margin-block: 24px;
+    font-weight: normal;
+}
+.section7 p{
+    font-size: 16px;
+    padding-inline: 3px;
+}
+.section7 .put1area{
+    display: flex;
+    justify-content: space-between;
+}
+.section7 .put1{
+    margin-bottom: 16px;
+    flex: 1;
+}
+.section7 .right{
+    padding-left: 30px;
+}
+.section7 label{
+    font-size: 16px;
+    margin-top: 0px;
+    margin-bottom: 8px;
+    color: #63eb5c;
+    display: inline-block;
+}
+.section7 input{
+    display: block;
+}
+.section7 .inputt1, .inputt2{
+    border: 1px solid #63eb5c;
+    background-color: transparent;
+    padding-block: 8px;
+    padding-inline: 12px;
+    color: white;
+    font-size: 18px;
+    border-radius: 5px;
+    width:100%;
+    box-sizing: border-box;
+}
+.section7 .inputt2{
+    height: 78px;
+}
+.myButton4 {
+    background-color: #63eb5c ;
+	border-radius:28px;
+    color:#2b0430dc;
+	font-size:18px;
+    font-weight: bold;
+	padding:12px 30px;
+    text-decoration: none;
+    display: inline-block;
+    margin-block: 24px;
+    width:100%;
+    box-sizing: border-box;
+    text-align: center;
+}
+.myButton4:hover{
+    color: white;
+}
+footer{
+    background-color: #2b0430dc;
+    font-size: 14px;
+    text-align: end;
+    color: white;
+    padding-block: 30px;
+}
+footer p{
+    margin-block: 0px;
+    margin-right: 20px;
+}
